@@ -1,0 +1,59 @@
+{
+    "version": 1,
+    "type": "",
+    "info": {
+        "name": "VideoPluginExample"
+    },
+    "content": {
+        "assets": [
+            "Assets"
+        ],
+        "code": [
+            "Code"
+        ]
+    },
+    "require": {
+        "engine": "engine-5.4",
+        "plugins": [
+            {
+                "type": "EPluginType::Native",
+                "path": "CryDefaultEntities"
+            },
+            {
+                "type": "EPluginType::Native",
+                "path": "CrySensorSystem"
+            },
+            {
+                "type": "EPluginType::Native",
+                "path": "CryPerceptionSystem"
+            },
+            {
+                "type": "EPluginType::Native",
+                "path": "bin/win_x64/Game.dll"
+            }
+			,
+            {
+                "type": "EPluginType::Native",
+                "path": "bin/win_x64/CryVideoPlugin.dll"
+            }
+        ]
+    },
+    "console_variables": [
+        {
+            "name": "ca_useIMG_CAF",
+            "value": "0"
+        },
+        {
+            "name": "cl_DefaultNearPlane",
+            "value": "0.05"
+        },
+        {
+            "name": "e_waterocean",
+            "value": "0"
+        },
+        {
+            "name": "sys_target_platforms",
+            "value": "pc,ps4,xboxone,linux"
+        }
+    ]
+}

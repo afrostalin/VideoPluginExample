@@ -1,0 +1,8 @@
+<AssetMetadata version="0" type="Xml" guid="d8c12cd4-d908-840c-944c-94dc82853a9a">
+ <Files>
+  <File path="sys_statecontrol.xml"/>
+ </Files>
+ <Details>
+  <Detail name="rootTag">Graph</Detail>
+ </Details>
+</AssetMetadata>

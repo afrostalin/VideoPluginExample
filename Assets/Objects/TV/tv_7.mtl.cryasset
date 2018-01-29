@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="3902232b-4426-3c4f-6735-3d2a41abb316">
+ <Files>
+  <File path="tv_7.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path>textures/defaults/white.dds</Path>
+  <Path>textures/defaults/white.dds</Path>
+  <Path>textures/defaults/white.dds</Path>
+  <Path>textures/defaults/white.dds</Path>
+  <Path>./$texture_7.dds</Path>
+ </Dependencies>
+</AssetMetadata>

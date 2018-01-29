@@ -1,0 +1,5 @@
+/bin/*
+/Editor/*
+/logbackups/*
+/user/*
+*.log
