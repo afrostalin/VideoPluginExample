@@ -4,7 +4,7 @@
    <Object Type="EntityWithComponent" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="93909fb0-ad23-1343-ffa7-36e46cff9dde" Name="EnvironmentProbe1" Pos="64,64,96" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
-     <Component CryXmlVersion="2" TypeGUID="63297e89-ea00-4f56-ac23-2e93c68fe71d" TypeName="Cry::DefaultComponents::CEnvironmentProbeComponent" GUID="2f9e6b7b-47d8-ec5c-36ef-bb6193377292" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="63297e89-ea00-4f56-ac23-2e93c68fe71d" TypeName="Cry::DefaultComponents::CEnvironmentProbeComponent" GUID="dc21c05b-7395-d946-5a02-3abc43377346" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
        <translation>
         <element element="0"/>
@@ -28,7 +28,7 @@
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="05d8d857-1963-1700-95a7-dac8c06196b1" Name="Entity-11" Pos="42.515247,48.686718,32.984947" FloorNumber="-1" Rotate="0.99941474,0.034208164,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
-     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="ebff48ab-8917-3cb3-5e3f-c5538fddca43" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="172e63ad-66b4-b099-91cc-5bfe0ec569f1" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
        <translation>
         <element element="0"/>
@@ -43,7 +43,7 @@
        <Physics Mass="10" Density="0"/>
       </properties>
      </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="b41d9da3-2930-cd80-ff08-fee035c865c5" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="4688bae4-4784-e528-dfac-64f7e246c04f" Name="" UserAdded="true">
       <properties Networked="false" EnabledByDefault="true" Type="Rigid" SendCollisionSignal="false"/>
      </Component>
     </Components>
@@ -51,7 +51,7 @@
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="d39a45f7-0118-1c68-996b-540c2f60d86c" Name="Entity-10" Pos="39.512802,48.690609,32.985214" FloorNumber="-1" Rotate="0.99941474,0.034208164,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
-     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="9a1f38dd-615d-32fe-2f60-b252bd13e02b" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="e607b1b3-c633-a4c8-8305-6c35b6e89788" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
        <translation>
         <element element="0"/>
@@ -66,7 +66,7 @@
        <Physics Mass="10" Density="0"/>
       </properties>
      </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="95be2cc9-9b56-06dd-f49d-a06e6cc34ce2" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="260d9007-2038-b4c0-cb1f-32496bbf2243" Name="" UserAdded="true">
       <properties Networked="false" EnabledByDefault="true" Type="Rigid" SendCollisionSignal="false"/>
      </Component>
     </Components>
@@ -121,7 +121,7 @@
       <properties Networked="false" EnabledByDefault="true" Type="Rigid" SendCollisionSignal="false"/>
      </Component>
      <Component CryXmlVersion="2" TypeGUID="1ae1ab31-50a4-4d83-baf0-ffb48cabf0b2" TypeName="CTextureVideoPlayerComponent" GUID="f40fae33-b1df-7326-3dce-489e55ca3165" Name="" UserAdded="true">
-      <properties autoplay="false" videofile="texture_6" outtexture="$texture_6" preloaded="true" looped="true" canplayineditor="true"/>
+      <properties autoplay="true" videofile="texture_6" outtexture="$texture_6" preloaded="true" looped="true" canplayineditor="true"/>
      </Component>
      <Component CryXmlVersion="2" TypeGUID="9c255a6c-b3e2-4af2-bdb4-9adccc9e07d3" TypeName="Cry::DefaultComponents::CDebugDrawComponent" GUID="f1a4b3a5-3d86-f3d7-acf0-d5317d2e18f1" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
@@ -142,7 +142,7 @@
    <Object Type="EntityWithComponent" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="a4845ee9-48b9-285c-b8b1-1c96dc1de9d0" Name="SpawnPoint" Pos="35.005184,43.47588,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
-     <Component CryXmlVersion="2" TypeGUID="41316132-8a1e-4073-b0cd-a242fd3d2e90" TypeName="CSpawnPointComponent" GUID="41c2bfcc-c01f-6465-5f1e-5bf0ef2fea3c" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="41316132-8a1e-4073-b0cd-a242fd3d2e90" TypeName="CSpawnPointComponent" GUID="15d28046-8f6b-276f-a1eb-ac4ca8731f77" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
        <translation>
         <element element="0"/>
@@ -190,31 +190,41 @@
       <Node Id="13" Class="Game:Start" pos="-828,1458,0">
        <Inputs InGame="1" InEditor="1"/>
       </Node>
-      <Node Id="14" Name="Simple_key_events" Class="_commentbox" pos="-846,1241.6274,0">
+      <Node Id="14" Name="Simple_key_events" Class="_commentbox" pos="-846,1269.1919,0">
        <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="1165" Height="290"/>
-       <NodeSize Width="1165" Height="363.88733"/>
+       <NodeSize Width="1165" Height="336.32266"/>
       </Node>
-      <Node Id="17" Class="Debug:Draw:EntityTag" pos="756,306,0" EntityGUID="94f45cb0-eebb-a97f-9d04-92119d0fe0a4">
+      <Node Id="17" Class="Debug:Draw:EntityTag" pos="774,324,0" EntityGUID="94f45cb0-eebb-a97f-9d04-92119d0fe0a4">
        <Inputs entityId="0" Message="CryLogo SD. Looped" FontSize="1.6" Color="0,0.296138,0.0307134" Time="10000"/>
       </Node>
-      <Node Id="18" Class="Game:Start" pos="414,666,0">
+      <Node Id="18" Class="Game:Start" pos="432,918,0">
        <Inputs InGame="1" InEditor="1"/>
       </Node>
-      <Node Id="19" Class="Debug:Draw:EntityTag" pos="756,504,0" EntityGUID="77e87fb9-f4aa-6e8d-6a40-926167db968b">
+      <Node Id="19" Class="Debug:Draw:EntityTag" pos="774,522,0" EntityGUID="77e87fb9-f4aa-6e8d-6a40-926167db968b">
        <Inputs entityId="0" Message="CryLogo SD 2. Looped" FontSize="1.6" Color="0,0.296138,0.0307134" Time="10000"/>
       </Node>
-      <Node Id="20" Class="Debug:Draw:EntityTag" pos="756,702,0" EntityGUID="13ed49bf-13b5-a6ad-ad7d-f5a18184c810">
+      <Node Id="20" Class="Debug:Draw:EntityTag" pos="774,720,0" EntityGUID="13ed49bf-13b5-a6ad-ad7d-f5a18184c810">
        <Inputs entityId="0" Message="Nature video SD. Not looped" FontSize="1.6" Color="0,0.296138,0.0307134" Time="10000"/>
       </Node>
-      <Node Id="21" Class="Debug:Draw:EntityTag" pos="756,918,0" EntityGUID="526ee687-9cf4-da43-9ff4-2e87962aacb7">
+      <Node Id="21" Class="Debug:Draw:EntityTag" pos="774,936,0" EntityGUID="526ee687-9cf4-da43-9ff4-2e87962aacb7">
        <Inputs entityId="0" Message="Crysis 3 demo SD. Not looped" FontSize="1.6" Color="0,0.296138,0.0307134" Time="10000"/>
       </Node>
-      <Node Id="22" Class="Debug:Draw:EntityTag" pos="756,1152,0" EntityGUID="d39a45f7-0118-1c68-996b-540c2f60d86c">
+      <Node Id="22" Class="Debug:Draw:EntityTag" pos="774,1170,0" EntityGUID="d39a45f7-0118-1c68-996b-540c2f60d86c">
        <Inputs entityId="0" Message="Cryengine 3 demo SD. Looped" FontSize="1.6" Color="0,0.296138,0.0307134" Time="10000"/>
       </Node>
-      <Node Id="23" Class="Debug:Draw:EntityTag" pos="756,1368,0" EntityGUID="05d8d857-1963-1700-95a7-dac8c06196b1">
+      <Node Id="23" Class="Debug:Draw:EntityTag" pos="774,1386,0" EntityGUID="05d8d857-1963-1700-95a7-dac8c06196b1">
        <Inputs entityId="0" Message="Press 1 - pause, press 2 - resume" FontSize="1.6" Color="0,0.296138,0.0307134" Time="10000"/>
+      </Node>
+      <Node Id="24" Name="Start_play_videos_to_textures" Class="_commentbox" pos="0,243.0191,0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="319" Height="1226"/>
+       <NodeSize Width="439.38354" Height="1272.3226"/>
+      </Node>
+      <Node Id="25" Name="Show_debug" Class="_commentbox" pos="756,261.11081,0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="372" Height="1208"/>
+       <NodeSize Width="372" Height="1254.3226"/>
       </Node>
      </Nodes>
      <Edges>
@@ -274,7 +284,7 @@
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="77e87fb9-f4aa-6e8d-6a40-926167db968b" Name="Entity-7" Pos="30.52877,48.623646,33.01358" FloorNumber="-1" Rotate="0.99995607,0.0093787014,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
-     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="171eca24-c093-72c7-7bbb-de4e11be4801" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="32af5ad2-bd98-5ec5-0134-15921ce1c4f4" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
        <translation>
         <element element="0"/>
@@ -289,7 +299,7 @@
        <Physics Mass="10" Density="0"/>
       </properties>
      </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="728eed0c-16bb-2a7b-34a8-0da493701984" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="d45b33aa-2db2-1300-8b6d-e9f185b0e6af" Name="" UserAdded="true">
       <properties Networked="false" EnabledByDefault="true" Type="Rigid" SendCollisionSignal="false"/>
      </Component>
     </Components>
@@ -325,7 +335,7 @@
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="13ed49bf-13b5-a6ad-ad7d-f5a18184c810" Name="Entity-8" Pos="33.504242,48.639618,33.026886" FloorNumber="-1" Rotate="0.99999332,-0.0036755949,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
-     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="ca444770-b5ca-5bf1-483c-dc8992705d76" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="1388a8f0-c946-c83e-1313-7e752cb2339a" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
        <translation>
         <element element="0"/>
@@ -340,7 +350,7 @@
        <Physics Mass="10" Density="0"/>
       </properties>
      </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="802fc917-863b-b115-cb80-f3308f15b076" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="5d5b8bd0-43fe-85a2-3c54-628865f4d49f" Name="" UserAdded="true">
       <properties Networked="false" EnabledByDefault="true" Type="Rigid" SendCollisionSignal="false"/>
      </Component>
     </Components>
@@ -348,7 +358,7 @@
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="94f45cb0-eebb-a97f-9d04-92119d0fe0a4" Name="Entity-9" Pos="27.457211,48.691063,32.985245" FloorNumber="-1" Rotate="0.99941474,0.034208164,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
-     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="c8dbc8e6-3b4e-bef6-2fd7-0f9a60ab4217" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="1a94935f-a4ba-b54e-721c-3297ac01bffb" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
        <translation>
         <element element="0"/>
@@ -363,7 +373,7 @@
        <Physics Mass="10" Density="0"/>
       </properties>
      </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="c60ad6ca-5f77-282c-37ec-340088b606b7" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="c75abb9d-302c-c86a-d602-632f41bb4250" Name="" UserAdded="true">
       <properties Networked="false" EnabledByDefault="true" Type="Rigid" SendCollisionSignal="false"/>
      </Component>
     </Components>
@@ -371,7 +381,7 @@
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="526ee687-9cf4-da43-9ff4-2e87962aacb7" Name="Entity-6" Pos="36.492569,48.670437,32.983829" FloorNumber="-1" Rotate="0.99941474,0.034208164,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
-     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="c129377d-9221-f823-6967-7d9b67acf986" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="b921b3b5-43fe-3907-f816-fc13f24c3183" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
        <translation>
         <element element="0"/>
@@ -386,7 +396,7 @@
        <Physics Mass="10" Density="0"/>
       </properties>
      </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="c0bd6b2e-3e30-aa92-60c0-ec1bc36f1d0b" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="f0df18a7-a737-722c-6a97-ca26798728c2" Name="" UserAdded="true">
       <properties Networked="false" EnabledByDefault="true" Type="Rigid" SendCollisionSignal="false"/>
      </Component>
     </Components>

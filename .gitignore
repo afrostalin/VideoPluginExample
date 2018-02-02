@@ -1,5 +1,6 @@
-/bin/*
 /Editor/*
 /logbackups/*
 /user/*
+/user(1)/*
+/user(2)/*
 *.log
