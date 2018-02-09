@@ -34,7 +34,7 @@
 			,
             {
                 "type": "EPluginType::Native",
-                "path": "bin/win_x64/CryVideoPlugin.dll"
+                "path": "bin/win_x64/CryVideoPlayer.dll"
             }
         ]
     },
