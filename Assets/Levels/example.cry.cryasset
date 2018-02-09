@@ -3,10 +3,14 @@
   <File path="example/example.cry"/>
  </Files>
  <Dependencies>
+  <Path>%editor%/materials/shaderlist.xml</Path>
+  <Path>%editor%/materials/stripes.dds</Path>
   <Path>%editor%/objects/envcube.cgf</Path>
   <Path>%editor%/objects/envcube.mtl</Path>
   <Path>%editor%/objects/gradf.dds</Path>
   <Path>%editor%/objects/helper_illum.mtl</Path>
+  <Path>%editor%/objects/mtlobjects.mtl</Path>
+  <Path>%editor%/objects/mtlplane.cgf</Path>
   <Path>%editor%/objects/spawnpointhelper.cgf</Path>
   <Path>%engine%/engineassets/codecoverage/hit.dds</Path>
   <Path>%engine%/engineassets/codecoverage/pbar.dds</Path>
@@ -91,6 +95,7 @@
   <Path>engineassets/textures/skys/night/half_moon.dds</Path>
   <Path>engineassets/textures/white.dds</Path>
   <Path>libs/environmentpresets/example.xml</Path>
+  <Path>libs/materialeffects/surfacetypes.xml</Path>
   <Path>materials/terrain.mtl</Path>
   <Path>objects/characters/samplecharacter/mcg_ddna.dds</Path>
   <Path>objects/characters/samplecharacter/mcg_diff.dds</Path>
@@ -106,6 +111,12 @@
   <Path>objects/tv/tv_4.mtl</Path>
   <Path>objects/tv/tv_5.mtl</Path>
   <Path>objects/tv/tv_6.mtl</Path>
+  <Path>objects/tv/tv_7.mtl</Path>
+  <Path>objects/tv_01/tv_01.cgf</Path>
+  <Path>objects/tv_01/tv_01.mtl</Path>
+  <Path>objects/tv_01/tv_ddna.dds</Path>
+  <Path>objects/tv_01/tv_diff.dds</Path>
+  <Path>objects/tv_01/tv_glass_diff.dds</Path>
   <Path>textures/cubemaps/example/environmentprobe1_cm.dds</Path>
   <Path>textures/cubemaps/example/environmentprobe1_cm_diff.dds</Path>
  </Dependencies>
