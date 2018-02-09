@@ -3,14 +3,8 @@
   <Node Id="1" Class="UI:Events:System:OnSystemStarted" pos="-360,-72,0">
    <Inputs Port="-1" Idx=""/>
   </Node>
-  <Node Id="2" Class="CryVideoPlugin:2DVideoPlayer" pos="-54,-72,0">
-   <Inputs Filename="crylogo" PreloadFile="1" LoopFile="0" PlayInEdidor="0" AudioTrackID="0" IsSkippable="0" CanBePaused="0"/>
-  </Node>
   <Node Id="3" Class="Mission:LoadNextLevel" pos="558,-18,0">
    <Inputs NextLevel="example"/>
-  </Node>
-  <Node Id="4" Class="CryVideoPlugin:2DVideoPlayer" pos="198,-72,0">
-   <Inputs Filename="crymovie" PreloadFile="1" LoopFile="0" PlayInEdidor="0" AudioTrackID="0" IsSkippable="1" CanBePaused="1"/>
   </Node>
   <Node Id="5" Class="Debug:DisplayMessage" pos="576,-396,0">
    <Inputs entityId="0" message="Press space to pause/resume" DisplayTime="0" posX="50" posY="50" fontSize="2" clr_Color="1,1,1" centered="0"/>
@@ -20,15 +14,21 @@
   </Node>
   <Node Id="7" Name="Start_play_CRYENGINE_logo_when_system_started" Class="_comment" pos="-360,-108,0"/>
   <Node Id="8" Name="After_logo_stopped_-_play_showcase_video" Class="_comment" pos="126,-108,0"/>
+  <Node Id="9" Class="CryVideoPlayer:2DVideoPlayer" pos="-54,-72,0">
+   <Inputs Filename="crylogo" PreloadFile="1" LoopFile="0" PlayInEdidor="0" AudioTrackID="0" IsSkippable="0" CanBePaused="0"/>
+  </Node>
+  <Node Id="10" Class="CryVideoPlayer:2DVideoPlayer" pos="180,-72,0">
+   <Inputs Filename="crymovie" PreloadFile="1" LoopFile="0" PlayInEdidor="0" AudioTrackID="0" IsSkippable="1" CanBePaused="1"/>
+  </Node>
  </Nodes>
  <Edges>
-  <Edge nodeIn="2" nodeOut="1" portIn="Play" portOut="onEvent" enabled="1"/>
-  <Edge nodeIn="4" nodeOut="2" portIn="Play" portOut="Stopped" enabled="1"/>
-  <Edge nodeIn="3" nodeOut="4" portIn="Trigger" portOut="Stopped" enabled="1"/>
-  <Edge nodeIn="5" nodeOut="4" portIn="Show" portOut="StartPlay" enabled="1"/>
-  <Edge nodeIn="5" nodeOut="4" portIn="Hide" portOut="Stopped" enabled="1"/>
-  <Edge nodeIn="6" nodeOut="4" portIn="Show" portOut="StartPlay" enabled="1"/>
-  <Edge nodeIn="6" nodeOut="4" portIn="Hide" portOut="Stopped" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="1" portIn="Play" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="9" portIn="Play" portOut="Stopped" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="10" portIn="Trigger" portOut="Stopped" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="10" portIn="Show" portOut="StartPlay" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="10" portIn="Hide" portOut="Stopped" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="10" portIn="Show" portOut="StartPlay" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="10" portIn="Hide" portOut="Stopped" enabled="1"/>
  </Edges>
  <GraphTokens />
 </Graph>

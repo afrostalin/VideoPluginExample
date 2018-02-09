@@ -4,7 +4,7 @@
    <Object Type="EntityWithComponent" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="93909fb0-ad23-1343-ffa7-36e46cff9dde" Name="EnvironmentProbe1" Pos="64,64,96" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
-     <Component CryXmlVersion="2" TypeGUID="63297e89-ea00-4f56-ac23-2e93c68fe71d" TypeName="Cry::DefaultComponents::CEnvironmentProbeComponent" GUID="1eae6887-3602-0891-3ccf-95dc0ce4a2d4" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="63297e89-ea00-4f56-ac23-2e93c68fe71d" TypeName="Cry::DefaultComponents::CEnvironmentProbeComponent" GUID="c4994e27-c947-4d91-6af9-791a9457490a" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
        <translation>
         <element element="0"/>
@@ -28,7 +28,7 @@
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="05d8d857-1963-1700-95a7-dac8c06196b1" Name="Entity-11" Pos="42.515247,48.686718,32.984947" FloorNumber="-1" Rotate="0.99941474,0.034208164,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
-     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="9f2dd1bd-ebf9-21c9-9e6c-bf3a9bab157c" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="5cd568e1-a298-1599-d7a8-62992649fe71" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
        <translation>
         <element element="0"/>
@@ -43,7 +43,7 @@
        <Physics Mass="10" Density="0"/>
       </properties>
      </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="568d3865-0038-5407-b2c5-d39b019ce00f" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="6f7030b3-d1d7-716a-c39a-c68267bda6d8" Name="" UserAdded="true">
       <properties Networked="false" EnabledByDefault="true" Type="Rigid" SendCollisionSignal="false"/>
      </Component>
     </Components>
@@ -102,7 +102,7 @@
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="f815b375-c9ee-248f-4342-9654fb99e4a6" Name="Entity-12" Pos="45.489182,48.669258,32.992279" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
-     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="3dfd85dd-6ac7-3de8-57bc-1ead60d45885" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="a104af40-6419-ac0a-8112-c8653f53279b" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
        <translation>
         <element element="0"/>
@@ -117,13 +117,13 @@
        <Physics Mass="10" Density="0"/>
       </properties>
      </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="6a0dc58e-0e12-66bb-2ce4-16a9f12e325c" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="5d0af9c1-025b-8239-aa5c-5b426a99bbb5" Name="" UserAdded="true">
       <properties Networked="false" EnabledByDefault="true" Type="Rigid" SendCollisionSignal="false"/>
      </Component>
-     <Component CryXmlVersion="2" TypeGUID="1ae1ab31-50a4-4d83-baf0-ffb48cabf0b2" TypeName="CTextureVideoPlayerComponent" GUID="cdfb7c09-27a0-bdd8-7581-e4b2aef011e5" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="1ae1ab31-50a4-4d83-baf0-ffb48cabf0b2" TypeName="CTextureVideoPlayerComponent" GUID="cf03bdfc-fae6-b684-4a85-2f41221592c9" Name="" UserAdded="true">
       <properties autoplay="true" videofile="texture_6" outtexture="$texture_6" preloaded="true" looped="true" canplayineditor="true"/>
      </Component>
-     <Component CryXmlVersion="2" TypeGUID="9c255a6c-b3e2-4af2-bdb4-9adccc9e07d3" TypeName="Cry::DefaultComponents::CDebugDrawComponent" GUID="3cbb7094-6dc3-3cae-b880-fdee4be0284e" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="9c255a6c-b3e2-4af2-bdb4-9adccc9e07d3" TypeName="Cry::DefaultComponents::CDebugDrawComponent" GUID="c1e49c47-12a5-6228-2083-bda2b404744e" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
        <translation>
         <element element="0"/>
@@ -160,24 +160,6 @@
       <Node Id="1" Class="Game:Start" pos="-252,756,0">
        <Inputs InGame="1" InEditor="1"/>
       </Node>
-      <Node Id="2" Class="CryVideoPlugin:TextureVideoPlayer" pos="18,306,0">
-       <Inputs Filename="texture_0" OutTextureName="$texture_0" PreloadFile="1" LoopFile="1" PlayInEdidor="1"/>
-      </Node>
-      <Node Id="3" Class="CryVideoPlugin:TextureVideoPlayer" pos="18,504,0">
-       <Inputs Filename="texture_1" OutTextureName="$texture_1" PreloadFile="1" LoopFile="1" PlayInEdidor="1"/>
-      </Node>
-      <Node Id="4" Class="CryVideoPlugin:TextureVideoPlayer" pos="18,702,0">
-       <Inputs Filename="texture_2" OutTextureName="$texture_2" PreloadFile="1" LoopFile="0" PlayInEdidor="1"/>
-      </Node>
-      <Node Id="5" Class="CryVideoPlugin:TextureVideoPlayer" pos="18,900,0">
-       <Inputs Filename="texture_3" OutTextureName="$texture_3" PreloadFile="1" LoopFile="0" PlayInEdidor="1"/>
-      </Node>
-      <Node Id="6" Class="CryVideoPlugin:TextureVideoPlayer" pos="18,1098,0">
-       <Inputs Filename="texture_4" OutTextureName="$texture_4" PreloadFile="1" LoopFile="1" PlayInEdidor="1"/>
-      </Node>
-      <Node Id="7" Class="CryVideoPlugin:TextureVideoPlayer" pos="18,1332,0">
-       <Inputs Filename="texture_5" OutTextureName="$texture_5" PreloadFile="1" LoopFile="1" PlayInEdidor="1"/>
-      </Node>
       <Node Id="8" Class="Debug:InputKey" pos="-342,1350,0">
        <Inputs entityId="0" Key="1" NonDevMode="0"/>
       </Node>
@@ -190,10 +172,10 @@
       <Node Id="13" Class="Game:Start" pos="-828,1458,0">
        <Inputs InGame="1" InEditor="1"/>
       </Node>
-      <Node Id="14" Name="Simple_key_events" Class="_commentbox" pos="-846,1269.1993,0">
+      <Node Id="14" Name="Simple_key_events" Class="_commentbox" pos="-846,1241.6309,0">
        <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="1165" Height="290"/>
-       <NodeSize Width="1165" Height="336.31503"/>
+       <NodeSize Width="1165" Height="363.88373"/>
       </Node>
       <Node Id="17" Class="Debug:Draw:EntityTag" pos="684,306,0" EntityGUID="94f45cb0-eebb-a97f-9d04-92119d0fe0a4">
        <Inputs entityId="0" Message="CryLogo SD. Looped" FontSize="1.6" Color="0,0.296138,0.0307134" Time="10000"/>
@@ -216,28 +198,46 @@
       <Node Id="23" Class="Debug:Draw:EntityTag" pos="684,1368,0" EntityGUID="05d8d857-1963-1700-95a7-dac8c06196b1">
        <Inputs entityId="0" Message="Press 1 - pause, press 2 - resume" FontSize="1.6" Color="0,0.296138,0.0307134" Time="10000"/>
       </Node>
-      <Node Id="24" Name="Start_play_videos_to_textures" Class="_commentbox" pos="0,243.02675,0">
+      <Node Id="24" Name="Start_play_videos_to_textures" Class="_commentbox" pos="0,215.45816,0">
        <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="319" Height="1226"/>
-       <NodeSize Width="439.37592" Height="1272.3151"/>
+       <NodeSize Width="702.78119" Height="1299.8838"/>
       </Node>
-      <Node Id="25" Name="Show_debug_description" Class="_commentbox" pos="666,243.0486,0">
+      <Node Id="25" Name="Show_debug_description" Class="_commentbox" pos="666,215.48001,0">
        <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="372" Height="1208"/>
-       <NodeSize Width="375.50873" Height="1254.3151"/>
+       <NodeSize Width="600.59369" Height="1281.8838"/>
+      </Node>
+      <Node Id="26" Class="CryVideoPlayer:TextureVideoPlayer" pos="18,306,0">
+       <Inputs Filename="texture_0" OutTextureName="$texture_0" PreloadFile="1" LoopFile="1" PlayInEdidor="1"/>
+      </Node>
+      <Node Id="27" Class="CryVideoPlayer:TextureVideoPlayer" pos="18,504,0">
+       <Inputs Filename="texture_1" OutTextureName="$texture_1" PreloadFile="1" LoopFile="1" PlayInEdidor="1"/>
+      </Node>
+      <Node Id="28" Class="CryVideoPlayer:TextureVideoPlayer" pos="18,702,0">
+       <Inputs Filename="texture_2" OutTextureName="$texture_2" PreloadFile="1" LoopFile="0" PlayInEdidor="1"/>
+      </Node>
+      <Node Id="29" Class="CryVideoPlayer:TextureVideoPlayer" pos="18,900,0">
+       <Inputs Filename="texture_3" OutTextureName="$texture_3" PreloadFile="1" LoopFile="0" PlayInEdidor="1"/>
+      </Node>
+      <Node Id="30" Class="CryVideoPlayer:TextureVideoPlayer" pos="18,1098,0">
+       <Inputs Filename="texture_4" OutTextureName="$texture_4" PreloadFile="1" LoopFile="1" PlayInEdidor="1"/>
+      </Node>
+      <Node Id="31" Class="CryVideoPlayer:TextureVideoPlayer" pos="18,1332,0">
+       <Inputs Filename="texture_5" OutTextureName="$texture_5" PreloadFile="1" LoopFile="1" PlayInEdidor="1"/>
       </Node>
      </Nodes>
      <Edges>
-      <Edge nodeIn="2" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
-      <Edge nodeIn="3" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
-      <Edge nodeIn="4" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
-      <Edge nodeIn="5" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
-      <Edge nodeIn="6" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
-      <Edge nodeIn="7" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
-      <Edge nodeIn="7" nodeOut="8" portIn="Pause" portOut="Pressed" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
+      <Edge nodeIn="27" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
+      <Edge nodeIn="28" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
+      <Edge nodeIn="29" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
+      <Edge nodeIn="30" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
+      <Edge nodeIn="31" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
+      <Edge nodeIn="31" nodeOut="8" portIn="Pause" portOut="Pressed" enabled="1"/>
       <Edge nodeIn="8" nodeOut="9" portIn="entityId" portOut="entityId" enabled="1"/>
       <Edge nodeIn="10" nodeOut="9" portIn="entityId" portOut="entityId" enabled="1"/>
-      <Edge nodeIn="7" nodeOut="10" portIn="Resume" portOut="Pressed" enabled="1"/>
+      <Edge nodeIn="31" nodeOut="10" portIn="Resume" portOut="Pressed" enabled="1"/>
       <Edge nodeIn="8" nodeOut="13" portIn="Enable" portOut="output" enabled="1"/>
       <Edge nodeIn="10" nodeOut="13" portIn="Enable" portOut="output" enabled="1"/>
       <Edge nodeIn="17" nodeOut="18" portIn="Draw" portOut="output" enabled="1"/>
@@ -304,9 +304,6 @@
      </Component>
     </Components>
    </Object>
-   <Object Type="Brush" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="3f5f32cd-d2ce-726e-81eb-a51ed7d49981" Name="Tv_01-1" Pos="43.018963,45.191227,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/Tv_01/Tv_01.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
-    <CollisionFiltering />
-   </Object>
    <Object Type="Designer" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="9e453c5c-e98c-7880-a90f-b1daeb875a75" Name="Designer-7" Pos="44.989761,48.52792,31.986633" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" Material="%ENGINE%/EngineAssets/TextureMsg/DefaultSolids" RndFlags="1073741832" StaticObjFlags="0" ViewDistRatio="100">
     <Brush DesignerModeFlags="0" SubdivisionLevel="0" SubdivisionSmoothingGroup="0" MirrorPlaneNormal="0,0,0" MirrorPlaneDistance="0">
      <Polygon GUID="d6268ce3-2b98-e5ce-0a8f-d95d083d3c5f" BinaryData="BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAQAAAAAAAAAAQAAAAEAAAACAAAAAgAAAAMAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAgL8AAIC/AACAvwAAgL8AAAAA"/>
@@ -361,7 +358,7 @@
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="94f45cb0-eebb-a97f-9d04-92119d0fe0a4" Name="Entity-9" Pos="27.457211,48.691063,32.985245" FloorNumber="-1" Rotate="0.99941474,0.034208164,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
-     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="f802500b-5b81-9eb5-a545-532176b4f0a3" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="df803e9a-2ec7-5659-fca8-c3a4eb8217f8" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
        <translation>
         <element element="0"/>
@@ -376,7 +373,7 @@
        <Physics Mass="10" Density="0"/>
       </properties>
      </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="2f9e5fbb-5b92-7be7-5d70-badb3e97d17b" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="cbe450ec-72d9-38c9-40cc-50a606bcc7dc" Name="" UserAdded="true">
       <properties Networked="false" EnabledByDefault="true" Type="Rigid" SendCollisionSignal="false"/>
      </Component>
     </Components>
@@ -384,7 +381,7 @@
    <Object Type="EmptyEntity" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="526ee687-9cf4-da43-9ff4-2e87962aacb7" Name="Entity-6" Pos="36.492569,48.670437,32.983829" FloorNumber="-1" Rotate="0.99941474,0.034208164,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
     <Components>
-     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="1a534726-7fe1-0f3b-a7a0-681f21ddfb36" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="2048a044-f084-b36c-96b8-491497f9fedf" Name="" UserAdded="true">
       <Transform x="1" y="1" z="1">
        <translation>
         <element element="0"/>
@@ -399,7 +396,7 @@
        <Physics Mass="10" Density="0"/>
       </properties>
      </Component>
-     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="27e684fd-ff66-e75b-a155-472183ddbd7a" Name="" UserAdded="true">
+     <Component CryXmlVersion="2" TypeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6" TypeName="Cry::DefaultComponents::CRigidBodyComponent" GUID="369ad44d-2268-e7df-5e1a-7c79ef005ed5" Name="" UserAdded="true">
       <properties Networked="false" EnabledByDefault="true" Type="Rigid" SendCollisionSignal="false"/>
      </Component>
     </Components>
