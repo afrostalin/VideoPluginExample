@@ -1,0 +1,94 @@
+<Graph Description="" Group="test" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="1" Class="Game:Start" pos="-252,756,0">
+   <Inputs InGame="1" InEditor="1"/>
+  </Node>
+  <Node Id="8" Class="Debug:InputKey" pos="-342,1350,0">
+   <Inputs entityId="0" Key="1" NonDevMode="0"/>
+  </Node>
+  <Node Id="9" Class="Actor:LocalPlayer" pos="-810,1368,0">
+   <Inputs />
+  </Node>
+  <Node Id="10" Class="Debug:InputKey" pos="-342,1494,0">
+   <Inputs entityId="0" Key="2" NonDevMode="0"/>
+  </Node>
+  <Node Id="13" Class="Game:Start" pos="-828,1458,0">
+   <Inputs InGame="1" InEditor="1"/>
+  </Node>
+  <Node Id="14" Name="Simple_key_events" Class="_commentbox" pos="-846,1195.5142,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="1165" Height="290"/>
+   <NodeSize Width="1165" Height="410.00021"/>
+  </Node>
+  <Node Id="17" Class="Debug:Draw:EntityTag" pos="684,306,0" EntityGUID="94f45cb0-eebb-a97f-9d04-92119d0fe0a4">
+   <Inputs entityId="0" Message="CryLogo SD. Looped" FontSize="1.6" Color="0,0.296138,0.0307134" Time="10000"/>
+  </Node>
+  <Node Id="18" Class="Game:Start" pos="450,900,0">
+   <Inputs InGame="1" InEditor="1"/>
+  </Node>
+  <Node Id="19" Class="Debug:Draw:EntityTag" pos="684,504,0" EntityGUID="77e87fb9-f4aa-6e8d-6a40-926167db968b">
+   <Inputs entityId="0" Message="CryLogo SD 2. Looped" FontSize="1.6" Color="0,0.296138,0.0307134" Time="10000"/>
+  </Node>
+  <Node Id="20" Class="Debug:Draw:EntityTag" pos="684,702,0" EntityGUID="13ed49bf-13b5-a6ad-ad7d-f5a18184c810">
+   <Inputs entityId="0" Message="Nature video SD. Not looped" FontSize="1.6" Color="0,0.296138,0.0307134" Time="10000"/>
+  </Node>
+  <Node Id="21" Class="Debug:Draw:EntityTag" pos="684,918,0" EntityGUID="526ee687-9cf4-da43-9ff4-2e87962aacb7">
+   <Inputs entityId="0" Message="Crysis 3 demo SD. Not looped" FontSize="1.6" Color="0,0.296138,0.0307134" Time="10000"/>
+  </Node>
+  <Node Id="22" Class="Debug:Draw:EntityTag" pos="684,1152,0" EntityGUID="d39a45f7-0118-1c68-996b-540c2f60d86c">
+   <Inputs entityId="0" Message="Cryengine 3 demo SD. Looped" FontSize="1.6" Color="0,0.296138,0.0307134" Time="10000"/>
+  </Node>
+  <Node Id="23" Class="Debug:Draw:EntityTag" pos="684,1368,0" EntityGUID="05d8d857-1963-1700-95a7-dac8c06196b1">
+   <Inputs entityId="0" Message="Press 1 - pause, press 2 - resume" FontSize="1.6" Color="0,0.296138,0.0307134" Time="10000"/>
+  </Node>
+  <Node Id="24" Name="Start_play_videos_to_textures" Class="_commentbox" pos="0,169.342,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="319" Height="1226"/>
+   <NodeSize Width="1141.9584" Height="1346.0002"/>
+  </Node>
+  <Node Id="25" Name="Show_debug_description" Class="_commentbox" pos="666,169.36385,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="372" Height="1208"/>
+   <NodeSize Width="975.90387" Height="1328.0002"/>
+  </Node>
+  <Node Id="26" Class="CEVPlayer:TextureVideoPlayer" pos="18,306,0" flags="3014656">
+   <Inputs Filename="texture_0" OutTextureName="$texture_0" PreloadFile="1" LoopFile="1" PlayInEdidor="1"/>
+  </Node>
+  <Node Id="27" Class="CEVPlayer:TextureVideoPlayer" pos="18,504,0" flags="7340083">
+   <Inputs Filename="texture_1" OutTextureName="$texture_1" PreloadFile="1" LoopFile="1" PlayInEdidor="1"/>
+  </Node>
+  <Node Id="28" Class="CEVPlayer:TextureVideoPlayer" pos="18,702,0" flags="6684704">
+   <Inputs Filename="texture_2" OutTextureName="$texture_2" PreloadFile="1" LoopFile="0" PlayInEdidor="1"/>
+  </Node>
+  <Node Id="29" Class="CEVPlayer:TextureVideoPlayer" pos="18,900,0" flags="105">
+   <Inputs Filename="texture_3" OutTextureName="$texture_3" PreloadFile="1" LoopFile="0" PlayInEdidor="1"/>
+  </Node>
+  <Node Id="30" Class="CEVPlayer:TextureVideoPlayer" pos="18,1098,0" flags="-618080603">
+   <Inputs Filename="texture_4" OutTextureName="$texture_4" PreloadFile="1" LoopFile="1" PlayInEdidor="1"/>
+  </Node>
+  <Node Id="31" Class="CEVPlayer:TextureVideoPlayer" pos="18,1332,0" flags="102">
+   <Inputs Filename="texture_5" OutTextureName="$texture_5" PreloadFile="1" LoopFile="1" PlayInEdidor="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="26" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
+  <Edge nodeIn="27" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
+  <Edge nodeIn="28" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
+  <Edge nodeIn="29" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
+  <Edge nodeIn="30" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
+  <Edge nodeIn="31" nodeOut="1" portIn="Play" portOut="output" enabled="1"/>
+  <Edge nodeIn="31" nodeOut="8" portIn="Pause" portOut="Pressed" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="9" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="9" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="31" nodeOut="10" portIn="Resume" portOut="Pressed" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="13" portIn="Enable" portOut="output" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="13" portIn="Enable" portOut="output" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="18" portIn="Draw" portOut="output" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="18" portIn="Draw" portOut="output" enabled="1"/>
+  <Edge nodeIn="20" nodeOut="18" portIn="Draw" portOut="output" enabled="1"/>
+  <Edge nodeIn="21" nodeOut="18" portIn="Draw" portOut="output" enabled="1"/>
+  <Edge nodeIn="22" nodeOut="18" portIn="Draw" portOut="output" enabled="1"/>
+  <Edge nodeIn="23" nodeOut="18" portIn="Draw" portOut="output" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

@@ -14,10 +14,10 @@
   </Node>
   <Node Id="7" Name="Start_play_CRYENGINE_logo_when_system_started" Class="_comment" pos="-360,-108,0"/>
   <Node Id="8" Name="After_logo_stopped_-_play_showcase_video" Class="_comment" pos="126,-108,0"/>
-  <Node Id="9" Class="CryVideoPlayer:2DVideoPlayer" pos="-54,-72,0">
+  <Node Id="9" Class="CEVPlayer:2DVideoPlayer" pos="-54,-72,0">
    <Inputs Filename="crylogo" PreloadFile="1" LoopFile="0" PlayInEdidor="0" AudioTrackID="0" IsSkippable="0" CanBePaused="0"/>
   </Node>
-  <Node Id="10" Class="CryVideoPlayer:2DVideoPlayer" pos="180,-72,0">
+  <Node Id="10" Class="CEVPlayer:2DVideoPlayer" pos="180,-72,0">
    <Inputs Filename="crymovie" PreloadFile="1" LoopFile="0" PlayInEdidor="0" AudioTrackID="0" IsSkippable="1" CanBePaused="1"/>
   </Node>
  </Nodes>
