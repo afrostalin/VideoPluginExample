@@ -1,5 +1,5 @@
 # VideoPluginExample
-This is an example of a project to study CryVideoPlayer plugin
+This is an example of a project to study CEVPlayer plugin
 
 # How use it
 * You need installed CRYENGINE 5.4 for open this project
