@@ -1,6 +1,8 @@
 /Editor/*
 /logbackups/*
+/solutions/*
 /user/*
 /user(1)/*
 /user(2)/*
 *.log
+*.pdb
