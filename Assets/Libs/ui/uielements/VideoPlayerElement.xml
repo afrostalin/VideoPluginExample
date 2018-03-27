@@ -1,0 +1,14 @@
+<UIElements name="HudElements"> <!-- Group name for this elements -->
+<UIElement name="VideoPlayer" controller_input="1" mouseevents="1" keyevents="1" cursor="1" console_mouse="1" >
+    <GFx file="VideoPlayerTest.gfx" layer="9">
+      <Constraints>
+				<Align mode="fullscreen" scale="1"/>				
+	  </Constraints>
+    </GFx>
+   <movieclips>
+		<movieclip name="VideoPlayerClip" instancename="_root.MyMovieClip"	/>
+    </movieclips>
+  </UIElement>
+
+</UIElements>
+
