@@ -29,7 +29,7 @@
             },
             {
                 "type": "EPluginType::Native",
-                "path": "bin/win_x64/Game.dll"
+                "path": "bin/win_x64/VideoPluginExample.dll"
             }
 			,
             {
